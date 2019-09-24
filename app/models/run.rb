@@ -12,7 +12,6 @@ car1 = Car.new("BMW", "5 series", "Luxury", owner1, mechanic1)
 car2 = Car.new("Tesla", "Model 2", "Luxury", owner2, mechanic1)
 car3 = Car.new("Porsche", "911", "Sports", owner1, mechanic2)
 
-
 # puts "Get a list of all owners"
 # p CarOwner.all
 
@@ -22,6 +21,5 @@ car3 = Car.new("Porsche", "911", "Sports", owner1, mechanic2)
 # puts "Get a list of all mechanics"
 # p Mechanic.all
 
-
-
-
+puts "Get a list of all the cars that a specific owner has"
+p CarOwner
